@@ -31,8 +31,8 @@ function _createProjs() {
             name: "Touch Nums",
             title: "Touch the next num as fast as you can",
             desc: "lorem ipsum lorem ipsum lorem ipsum",
-            url: "projs/touchNums",
-            publishedAt: 1448693940000,
+            url: "projs/Ex4 - touch num",
+            publishedAt: getTime(),
             labels: ["Matrixes"]
         },
         {
@@ -41,9 +41,14 @@ function _createProjs() {
             title: "Web books shop",
             desc: "lorem ipsum lorem ipsum lorem ipsum",
             url: "projs/books",
-            publishedAt: 1448693940000,
+            publishedAt: getTime(),
             labels: ["Local Storage"]
         }
     ]
     gProjs = projs
+}
+
+function getTime(){
+    var time = new Date(Date.now());
+    return time.getFullYear()
 }

@@ -45,7 +45,7 @@ function renderModal(projId) {
     </ul>
     <button class="btn btn-success" type="button">
         <i class="fa fa-hand-peace-o"></i>
-        <a href="${proj.url}">Check it out!</a></button>
+        <a class="modal-url" href="${proj.url}" target="_blank">Check it out!</a></button>
     <button class="btn btn-primary" data-dismiss="modal" type="button">
         <i class="fa fa-times"></i>
         Close Project</button>`

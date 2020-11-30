@@ -1,0 +1,75 @@
+
+
+
+body{
+    text-align: center;
+    background-color: #e4f9f5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    color: #11999e;
+}
+
+table{
+    margin: auto;
+    background-color: #40514e;
+    color: white;
+    border-color: #e4f9f5;
+    margin-top: 10px;
+}
+
+.board td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    transition: .3s;
+    
+}
+
+.pressed {
+    background-color: #11999e;
+}
+
+.game-button{
+    padding: 5px;
+    border: none;
+    background-color: #30e3ca;
+    margin-top: 10px;
+    border-radius: 10%;
+}
+
+.timer{
+    background-color:#11999e;
+    margin-left: 65%;
+    width: 50px;
+    height: 10px;
+    padding: 10px;
+    position: absolute;
+    border-radius: 10%;
+    color: white;
+    
+    
+}
+
+.level-button{
+    padding: 5px;
+    border: none;
+    background-color: #30e3ca;
+    margin-top: 10px;
+    border-radius: 10%;
+    margin-left: 10px;
+}
+
+.curr-num{
+    background-color:#11999e;
+    margin-left: 10%;
+    width: 150px;
+    height: 20px;
+    padding: 10px;
+    position: absolute;
+    right: 450px;
+    display: inline;
+    border-radius: 10%;
+    color: white;
+}

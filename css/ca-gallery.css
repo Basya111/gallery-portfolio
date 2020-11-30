@@ -25,6 +25,15 @@ h6 {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
+.modal-url{
+    text-decoration: none;
+    color:white
+}
+.modal-url:hover{
+    text-decoration: none;
+    color:white
+}
+
 section {
     padding: 100px 0;
 }
@@ -265,7 +274,7 @@ header.masthead .intro-text .intro-heading {
     -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
     opacity: 0;
-    background: rgba(254, 209, 54, 0.9);
+    background: #aa96da;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
     opacity: 1;
@@ -451,7 +460,7 @@ header.masthead .intro-text .intro-heading {
     color: white;
     border: 7px solid #f1f1f1;
     border-radius: 100%;
-    background-color: #fed136;
+    background-color: #aa96da;
 }
 .timeline > li .timeline-image h4 {
     font-size: 10px;
@@ -625,7 +634,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
-    background-color: #fed136;
+    background-color: #faa2c4;
 }
 .flex-align-center {
     display: flex;
@@ -633,33 +642,33 @@ ul.social-buttons li a:hover {
     align-items: center;
 }
 .text-primary {
-    color: #fed136 !important;
+    color: #fcbad3 !important;
 }
 .btn-primary {
     font-weight: 700;
     color: white;
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #aa96da;
+    background-color: #aa96da;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
 .btn-primary.focus,
 .btn-primary:focus {
     color: white;
-    border-color: #b48b01;
-    background-color: #fec503;
+    border-color: #9c7aec;
+    background-color: #aa96da;
 }
 .btn-primary:hover {
     color: white;
-    border-color: #f6bf01;
-    background-color: #fec503;
+    border-color: #9c7aec;
+    background-color: #9c7aec;
 }
 .btn-primary.active,
 .btn-primary:active,
 .open > .btn-primary.dropdown-toggle {
     color: white;
-    border-color: #f6bf01;
-    background-color: #fec503;
+    border-color: #aa96da;
+    background-color: #aa96da;
 }
 .btn-primary.active.focus,
 .btn-primary.active:focus,
@@ -709,20 +718,20 @@ fieldset[disabled] .btn-primary:hover {
 .btn-xl.focus,
 .btn-xl:focus {
     color: white;
-    border-color: #b48b01;
-    background-color: #fec503;
+    border-color: #f79cbf;
+    background-color: #fcbad3;
 }
 .btn-xl:hover {
     color: white;
-    border-color: #f6bf01;
-    background-color: #fec503;
+    border-color: #f79cbf;
+    background-color: #f79cbf;
 }
 .btn-xl.active,
 .btn-xl:active,
 .open > .btn-xl.dropdown-toggle {
     color: white;
-    border-color: #f6bf01;
-    background-color: #fec503;
+    border-color: #f79cbf;
+    background-color: #fcbad3;
 }
 .btn-xl.active.focus,
 .btn-xl.active:focus,
@@ -751,11 +760,11 @@ fieldset[disabled] .btn-primary:hover {
 fieldset[disabled] .btn-xl.focus,
 fieldset[disabled] .btn-xl:focus,
 fieldset[disabled] .btn-xl:hover {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #a8d8ea;
+    background-color: #a8d8ea;
 }
 .btn-xl .badge {
-    color: #fed136;
+    color: #a8d8ea;
     background-color: white;
 }
 
